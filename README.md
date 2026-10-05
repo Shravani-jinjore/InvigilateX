@@ -262,16 +262,16 @@ date,session,subject_name,course_code,rooms_required
 
 ### Backend `.env`
 ```
-SUPABASE_URL=https://xxxx.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGc...
-PORT=4000
-NODE_ENV=development
-FRONTEND_URL=http://localhost:3000
+SUPABASE_URL=https:
+SUPABASE_SERVICE_ROLE_KEY=
+PORT=
+NODE_ENV=
+FRONTEND_URL=
 ```
 
 ### Frontend `.env`
 ```
-REACT_APP_SUPABASE_URL=https://xxxx.supabase.co
-REACT_APP_SUPABASE_ANON_KEY=eyJhbGc...
-REACT_APP_API_URL=http://localhost:4000/api
+REACT_APP_SUPABASE_URL=https:
+REACT_APP_SUPABASE_ANON_KEY=
+REACT_APP_API_URL=
 ```
