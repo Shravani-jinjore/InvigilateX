@@ -1,4 +1,4 @@
-# 📋 InvigilateX — AI-Based Invigilation Duty Allocation System
+# 📋 InvigilateX — Invigilation Duty Allocation System
 
 A full-stack production-ready web application for automated invigilation duty allocation using a greedy algorithm with constraint handling, role-based access, and fair workload distribution.
 
