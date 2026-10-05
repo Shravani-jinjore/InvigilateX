@@ -16,7 +16,23 @@ A full-stack production-ready web application for automated invigilation duty al
 | File Upload  | Multer + PapaParse + XLSX        |
 | Toasts       | react-hot-toast                  |
 
+
+
 ---
+## 🔁 Re-Examination Module
+
+An independent scheduling and allocation pipeline for re-exams. It reuses the
+core faculty, subject and availability data but runs on its own timetable.
+
+**Workflow:** Upload re-exam timetable (CSV/Excel) → Set faculty count per day
+→ Generate allocation → View report / export PDF
+
+- Intelligent column mapping with row-level error reporting
+- Greedy allocation in `backend/utils/reexamAllocationAlgorithm.js`
+- Routes in `backend/routes/reexam.js`, UI in `frontend/src/pages/admin/ReExamModule.js`
+
+**Database:** after `database.sql`, run `alter_exams_table.sql` and then
+`reexam_tables.sql` in the Supabase SQL Editor.
 
 ## 📁 Project Structure
 
