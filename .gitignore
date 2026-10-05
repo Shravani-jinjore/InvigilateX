@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+.cache/
+dist/
+build/
+
+# Environment files (keep the example)
+.env
+.env.*
+!.env.example
+
+# Uploaded timetables (may contain faculty names and mobile numbers)
+uploads/
+
+# Logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
